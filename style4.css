@@ -1,0 +1,274 @@
+body {
+    background-color: black;
+}
+
+.box5 {
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    margin-top: 230px;
+    margin-left: 600px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 30px white;
+}
+
+#btn {
+    color: white;
+    background-color: orangered;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin-left: 130px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+input {
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 45px;
+    border-color: rgb(255, 162, 23);
+}
+
+.new-item {
+    color: orangered;
+    font-size: 20px;
+    
+    margin-left: 120px;
+}
+/* -------------------- */
+
+
+.new-box {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    margin-top: 130px;
+    margin-left: 200px;
+    position: relative;
+    
+}
+
+.fa-2x {
+    position: absolute;
+    font-size: 30px;
+    right: 40px;
+    bottom: 0.4em;
+    
+    
+}
+
+.fa-plus-square {
+    position:absolute;
+    font-size: 30px;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.head {
+    margin-top: 5px;
+    font-size: 30px;
+    color: rgb(184, 40, 14);
+}
+
+.tripName {
+    color: red;
+    font-size: large;
+    font-weight: 30px;
+    text-decoration: none;
+}
+
+.subTask {
+    color: rgb(0, 162, 255);
+}
+
+#back {
+    text-decoration: none;
+    color: white;
+    
+}
+#backtext {
+    position: absolute;
+    margin-left: 260px;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.strike {
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.fa-arrow-alt-circle-left {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 70px;
+    
+}
+
+.fa-plus-circle {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 70px;
+
+}
+
+.fa-2x {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 168px;
+    margin-left: 30px;
+}
+
+.fa-plus-square {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 170px;
+    margin-left: 60px;
+
+}
+
+/* Media Query for Mobile */
+
+@media screen and (min-width:360px) and (max-width:640px) {
+    body {
+        width: 360px;
+        margin-left: -30px;
+    }
+    
+    #tasks{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 15%;
+        
+    }
+    .container1 {
+        margin-left: 30px;
+        width: 40px;
+      
+        
+    }
+    .box2-1{
+       position: absolute;
+       margin-top: 70px;
+       margin-left: -100px;
+        
+    }
+
+    .taskName {
+        margin-left: 0px;
+    }
+    .box2 {
+        margin-left: -300px;
+    }
+    #tasks{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 15%;
+     }
+    .new-box {
+        width: 250px;
+        margin-left: 80px;
+    }
+
+    .container2{
+        margin-left: 35%;
+    }
+
+    #next{
+        display: block;
+        margin-left: 28%;
+    }
+    .fa-arrow-alt-circle-left{
+        margin-left: -40px;
+        
+    }
+    .fa-plus-circle{
+        margin-left: -190px;
+        
+    }
+    #backtext {
+        margin-left: 20px;
+    }
+}
+
+/* Media Query for ipad */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+body {
+    width: 360px;
+    margin-left: -30px;
+}
+
+#tasks{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 15%;
+    
+}
+.container1 {
+    margin-left: 30px;
+    width: 40px;
+  
+    
+}
+.box2-1{
+   position: absolute;
+   margin-top: 70px;
+   margin-left: -100px;
+    
+}
+
+.taskName {
+    margin-left: 0px;
+}
+.box2 {
+    margin-left: -300px;
+}
+#tasks{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+ }
+.new-box {
+    width: 350px;
+    margin-left: 240px;
+    margin-top: 140px;
+}
+
+.container2{
+    margin-left: 35%;
+}
+
+#next{
+    display: block;
+    margin-left: 28%;
+}
+.fa-arrow-alt-circle-left{
+    margin-left: 120px;
+    
+}
+.fa-plus-circle{
+    margin-left: 390px;
+    
+}
+#backtext {
+    margin-left: 230px;
+}
+}
+
+
