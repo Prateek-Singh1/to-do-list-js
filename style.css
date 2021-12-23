@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 140, 255);
 }
 
 .container1 {
@@ -16,14 +16,22 @@ body {
 .task {
     font-size: 60px;
     font-weight: bold;
+    text-shadow: 5px 5px 10px black;
    
 }
 
 .list {
     font-size: 60px;
     font-weight: lighter;
+    text-shadow: 5px 5px 10px black;
+}
+.box2-2 {
+    text-shadow: 5px 5px 10px black;
 }
 
+.box2-1 {
+    text-shadow: 5px 5px 10px black;
+}
 .box2 {
     font-size: 50px;
     font-weight: lighter;
@@ -86,7 +94,7 @@ input {
 /* --------------------- */
 
 .new-box {
-    border: 1px solid black;
+    
     border-radius: 10px;
     width: 200px;
     height: 300px;
@@ -96,6 +104,7 @@ input {
     flex-wrap: wrap;
     background-color: blanchedalmond;
     position: relative;
+    box-shadow: 5px 5px 30px rgb(47, 0, 255);
 }
 
 .bi-plus-square-fill {
